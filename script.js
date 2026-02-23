@@ -109,7 +109,6 @@ function renderJobs() {
   }
 
   filtered.forEach(job => {
-
     const card = document.createElement("div");
     card.className = "card bg-base-100 shadow relative";
 
